@@ -1,0 +1,28 @@
+{
+  "_info": "Ustawienia zamówień online. mode: off | demo | order | stripe. Ceny produktów: products.json → \"prices\": {\"slice\": 450} (w pensach). Opis w docs/INSTRUKCJA-PL.md.",
+  "mode": "demo",
+  "max_qty": 10,
+  "min_notice_days": 1,
+  "variants": [
+    {
+      "id": "slice",
+      "en": "Slice",
+      "pl": "Kawałek"
+    },
+    {
+      "id": "whole-8",
+      "en": "Whole cake · 8 portions",
+      "pl": "Cały tort · 8 porcji"
+    },
+    {
+      "id": "whole-12",
+      "en": "Whole cake · 12 portions",
+      "pl": "Cały tort · 12 porcji"
+    }
+  ],
+  "demo_prices": {
+    "slice": 450,
+    "whole-8": 3200,
+    "whole-12": 4600
+  }
+}

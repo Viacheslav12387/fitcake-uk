@@ -1,0 +1,896 @@
+[
+  {
+    "id": "P001",
+    "order": 1,
+    "category": "Cakes",
+    "name_en": "Banana Cake",
+    "desc_en": "Moist banana cake with a creamy coconut layer. Plant-based and nut-free.",
+    "name_pl": "Bananowiec",
+    "desc_pl": "Wilgotne ciasto bananowe z kremem kokosowym. Wegańskie, bez orzechów.",
+    "kcal": 323,
+    "protein": 3,
+    "carbs": 20,
+    "fat": 25,
+    "diets": [
+      "vegan",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [],
+    "image": "banana-cake",
+    "ingredients_en": "Coconut milk, coconut yoghurt alternative, bananas, gluten-free oat flour",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "ingredients_pl": "Mleczko kokosowe, wegańska alternatywa jogurtu kokosowego, banany, bezglutenowa mąka owsiana",
+    "prices": {}
+  },
+  {
+    "id": "P002",
+    "order": 2,
+    "category": "Cakes",
+    "name_en": "Carrot Cake",
+    "desc_en": "Classic carrot cake with walnuts and a mascarpone cream.",
+    "name_pl": "Ciasto marchewkowe",
+    "desc_pl": "Klasyczne ciasto marchewkowe z orzechami i kremem mascarpone.",
+    "kcal": 298,
+    "protein": 10,
+    "carbs": 11.5,
+    "fat": 23,
+    "diets": [
+      "gluten-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Eggs",
+      "Milk",
+      "Nuts"
+    ],
+    "image": "carrot-cake",
+    "ingredients_en": "Carrot, eggs, mascarpone, walnuts, cream, buckwheat",
+    "image_sizes": [
+      480,
+      800
+    ],
+    "ingredients_pl": "Marchew, jajka, mascarpone, orzechy włoskie, śmietanka, mąka gryczana",
+    "prices": {}
+  },
+  {
+    "id": "P003",
+    "order": 3,
+    "category": "Cakes",
+    "name_en": "Raspberry & Pistachio Temptation",
+    "desc_en": "Pistachio cream and fresh raspberries on a plant-based base.",
+    "name_pl": "Malinowo-pistacjowa pokusa",
+    "desc_pl": "Krem pistacjowy i świeże maliny na wegańskim spodzie.",
+    "kcal": 411,
+    "protein": 4.5,
+    "carbs": 19,
+    "fat": 35,
+    "diets": [
+      "vegan",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Nuts"
+    ],
+    "image": "raspberry-pistachio-temptation",
+    "ingredients_en": "Raspberries, pistachio paste, coconut milk",
+    "image_sizes": [
+      480,
+      682
+    ],
+    "ingredients_pl": "Maliny, pasta pistacjowa, mleczko kokosowe",
+    "prices": {}
+  },
+  {
+    "id": "P004",
+    "order": 4,
+    "category": "Cakes",
+    "name_en": "Crispy Lemon",
+    "desc_en": "Zesty lemon and passion fruit cream with a crunchy almond layer. Low-carb.",
+    "name_pl": "Crispy Lemon",
+    "desc_pl": "Cytrynowo-marakujowy krem z chrupiącą warstwą migdałową. Low carb.",
+    "kcal": 370,
+    "protein": 10,
+    "carbs": 13,
+    "fat": 30,
+    "diets": [
+      "keto",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Eggs",
+      "Nuts"
+    ],
+    "image": "crispy-lemon",
+    "ingredients_en": "Coconut milk, eggs, cashew-coconut paste, passion fruit, almonds",
+    "image_sizes": [
+      480,
+      600
+    ],
+    "ingredients_pl": "Mleczko kokosowe, jajka, pasta z nerkowca i kokosa, marakuja, migdały",
+    "prices": {}
+  },
+  {
+    "id": "P005",
+    "order": 5,
+    "category": "Cheesecakes",
+    "name_en": "Dubai Cheesecake",
+    "desc_en": "Creamy cheesecake with pistachio cream and white chocolate.",
+    "name_pl": "Sernik dubajski",
+    "desc_pl": "Kremowy sernik z kremem pistacjowym i białą czekoladą.",
+    "kcal": 381,
+    "protein": 16,
+    "carbs": 25,
+    "fat": 24,
+    "diets": [
+      "gluten-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Milk",
+      "Eggs",
+      "Nuts"
+    ],
+    "image": "dubai-cheesecake",
+    "ingredients_en": "Cottage cheese, eggs, pistachio paste, white chocolate cream, almond flour",
+    "image_sizes": [
+      480,
+      600
+    ],
+    "ingredients_pl": "Twaróg, jajka, pasta pistacjowa, krem z białej czekolady, mąka migdałowa",
+    "prices": {}
+  },
+  {
+    "id": "P006",
+    "order": 6,
+    "category": "Cakes",
+    "name_en": "Protein King",
+    "desc_en": "High-protein chocolate and peanut cake – 22 g protein per slice.",
+    "name_pl": "Protein King",
+    "desc_pl": "Wysokobiałkowe ciasto czekoladowo-orzechowe – 22 g białka w porcji.",
+    "kcal": 284,
+    "protein": 22,
+    "carbs": 15,
+    "fat": 16,
+    "diets": [
+      "gluten-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Milk",
+      "Eggs",
+      "Peanuts"
+    ],
+    "image": "protein-king",
+    "ingredients_en": "Lactose-free milk, cottage cheese, eggs, peanut paste, milk chocolate",
+    "image_sizes": [
+      480,
+      600
+    ],
+    "ingredients_pl": "Mleko bez laktozy, serek wiejski, jajka, pasta z orzeszków ziemnych, czekolada mleczna",
+    "prices": {}
+  },
+  {
+    "id": "P007",
+    "order": 7,
+    "category": "Cakes",
+    "name_en": "Red Velvet",
+    "desc_en": "Red velvet coloured naturally with beetroot, with strawberry jam.",
+    "name_pl": "Red Velvet",
+    "desc_pl": "Red velvet barwiony naturalnie burakiem, z dżemem truskawkowym.",
+    "kcal": 322,
+    "protein": 8,
+    "carbs": 21,
+    "fat": 22,
+    "diets": [
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Eggs"
+    ],
+    "image": "red-velvet",
+    "ingredients_en": "Eggs, coconut milk, buckwheat, dried beetroot, strawberry jam",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "ingredients_pl": "Jajka, mleczko kokosowe, mąka gryczana, suszony burak, dżem truskawkowy",
+    "prices": {}
+  },
+  {
+    "id": "P008",
+    "order": 8,
+    "category": "Cakes",
+    "name_en": "Vegan Black Forest Cake",
+    "desc_en": "Chocolate sponge with cherries and a light cream – fully plant-based.",
+    "name_pl": "Torcik szwarcwaldzki",
+    "desc_pl": "Czekoladowy biszkopt z wiśniami i lekkim kremem – w pełni roślinny.",
+    "kcal": 349,
+    "protein": 2,
+    "carbs": 25,
+    "fat": 27,
+    "diets": [
+      "vegan",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [],
+    "image": "vegan-black-forest-cake",
+    "ingredients_en": "Coconut milk, buckwheat, cherries, rapeseed oil, dark chocolate",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "ingredients_pl": "Mleczko kokosowe, mąka gryczana, wiśnie, olej rzepakowy, gorzka czekolada",
+    "prices": {}
+  },
+  {
+    "id": "P009",
+    "order": 9,
+    "category": "Cakes",
+    "name_en": "Tiramisu",
+    "desc_en": "Espresso-soaked sponge with a light coconut cream and cocoa.",
+    "name_pl": "Tiramisu",
+    "desc_pl": "Biszkopt nasączony espresso z lekkim kremem kokosowym i kakao.",
+    "kcal": 211,
+    "protein": 5,
+    "carbs": 5,
+    "fat": 19,
+    "diets": [
+      "keto",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Eggs"
+    ],
+    "image": "tiramisu",
+    "ingredients_en": "Eggs, coconut milk, buckwheat, espresso, cocoa",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "ingredients_pl": "Jajka, mleczko kokosowe, mąka gryczana, espresso, kakao",
+    "prices": {}
+  },
+  {
+    "id": "P010",
+    "order": 10,
+    "category": "Tarts & Pies",
+    "name_en": "Mango & Coconut Tart",
+    "desc_en": "Tropical mango cream on a crisp almond and coconut base.",
+    "name_pl": "Tarta mango-kokos",
+    "desc_pl": "Tropikalny krem mango na kruchym spodzie migdałowo-kokosowym.",
+    "kcal": 358,
+    "protein": 6,
+    "carbs": 16,
+    "fat": 30,
+    "diets": [
+      "vegan",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Nuts"
+    ],
+    "image": "mango-coconut-tart",
+    "ingredients_en": "Coconut milk, mango, coconut flakes, almond flour, rice flour",
+    "image_sizes": [
+      480,
+      800
+    ],
+    "ingredients_pl": "Mleczko kokosowe, mango, wiórki kokosowe, mąka migdałowa, mąka ryżowa",
+    "prices": {}
+  },
+  {
+    "id": "P011",
+    "order": 11,
+    "category": "Cakes",
+    "name_en": "Banoffee",
+    "desc_en": "Banana, date caramel and coconut – a plant-based classic.",
+    "name_pl": "Banoffee",
+    "desc_pl": "Banan, karmel daktylowy i kokos – wegański klasyk.",
+    "kcal": 419,
+    "protein": 8,
+    "carbs": 29,
+    "fat": 31,
+    "diets": [
+      "vegan",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Peanuts"
+    ],
+    "image": "banoffee",
+    "ingredients_en": "Bananas, coconut milk, dates, peanuts, shredded coconut",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "ingredients_pl": "Banany, mleczko kokosowe, daktyle, orzeszki ziemne, wiórki kokosowe",
+    "prices": {}
+  },
+  {
+    "id": "P012",
+    "order": 12,
+    "category": "Cheesecakes",
+    "name_en": "Vanilla Cheesecake",
+    "desc_en": "Light vanilla cheesecake with skyr and seasonal fruit – 27 g protein.",
+    "name_pl": "Sernik waniliowy",
+    "desc_pl": "Lekki sernik waniliowy ze skyrem i owocami sezonowymi – 27 g białka.",
+    "kcal": 200,
+    "protein": 27,
+    "carbs": 13,
+    "fat": 4.5,
+    "diets": [
+      "gluten-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Milk",
+      "Eggs"
+    ],
+    "image": "vanilla-cheesecake",
+    "ingredients_en": "Eggs, cottage cheese, skyr, vanilla, seasonal fruit",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "ingredients_pl": "Jajka, twaróg, skyr, wanilia, owoce sezonowe",
+    "prices": {}
+  },
+  {
+    "id": "P013",
+    "order": 13,
+    "category": "Cakes",
+    "name_en": "Raspberry Coconut Cloud",
+    "desc_en": "Light coconut cream with fresh raspberries and a coconut crumb. Nut-free.",
+    "name_pl": "Malinowe rafaello",
+    "desc_pl": "Lekki krem kokosowy z malinami i wiórkami kokosowymi. Bez orzechów.",
+    "kcal": 280,
+    "protein": 7,
+    "carbs": 9.5,
+    "fat": 24,
+    "diets": [
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Eggs"
+    ],
+    "image": "raspberry-coconut-cloud",
+    "ingredients_en": "Coconut milk, raspberries, eggs, shredded coconut, gluten-free custard, lemon juice",
+    "ingredients_pl": "Mleczko kokosowe, maliny, jajka, wiórki kokosowe, budyń bezglutenowy, sok z cytryny",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "prices": {}
+  },
+  {
+    "id": "P014",
+    "order": 14,
+    "category": "Cakes",
+    "name_en": "Blueberry Temptation",
+    "desc_en": "Blueberry layer on a chocolate buckwheat sponge – fully plant-based.",
+    "name_pl": "Jagodowa pokusa",
+    "desc_pl": "Warstwa jagodowa na czekoladowym biszkopcie gryczanym – w pełni roślinna.",
+    "kcal": 385,
+    "protein": 6,
+    "carbs": 22,
+    "fat": 30,
+    "diets": [
+      "vegan",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Peanuts",
+      "Soya"
+    ],
+    "image": "blueberry-temptation",
+    "ingredients_en": "Coconut cream, blueberries, buckwheat flour, peanut cocoa cream, dark chocolate, cocoa",
+    "ingredients_pl": "Krem kokosowy, jagody, mąka gryczana, krem orzechowo-kakaowy, gorzka czekolada, kakao",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "prices": {}
+  },
+  {
+    "id": "P015",
+    "order": 15,
+    "category": "Cakes",
+    "name_en": "Cherry Danube Waves",
+    "desc_en": "Classic layered cake with cherries, custard cream and dark chocolate.",
+    "name_pl": "Fale Dunaju (wiśnie)",
+    "desc_pl": "Klasyczne ciasto warstwowe z wiśniami, kremem budyniowym i gorzką czekoladą.",
+    "kcal": 336,
+    "protein": 14,
+    "carbs": 17,
+    "fat": 23,
+    "diets": [
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Eggs",
+      "Soya",
+      "Peanuts"
+    ],
+    "image": "cherry-danube-waves",
+    "ingredients_en": "Eggs, soya drink, cherries, coconut milk, peanut paste, dark chocolate, gluten-free custard",
+    "ingredients_pl": "Jajka, napój sojowy, wiśnie, mleczko kokosowe, pasta z orzechów arachidowych, gorzka czekolada, budyń bezglutenowy",
+    "image_sizes": [
+      480,
+      600
+    ],
+    "prices": {}
+  },
+  {
+    "id": "P016",
+    "order": 16,
+    "category": "Cakes",
+    "name_en": "Vegan Chocolate Cream Slice",
+    "desc_en": "Polish 'wuzetka': chocolate sponge, blackcurrant jam and a light cream.",
+    "name_pl": "Wuzetka vegan",
+    "desc_pl": "Czekoladowy biszkopt, dżem z czarnej porzeczki i lekki krem.",
+    "kcal": 317,
+    "protein": 3,
+    "carbs": 23,
+    "fat": 24,
+    "diets": [
+      "vegan",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Soya"
+    ],
+    "image": "vegan-chocolate-cream-slice",
+    "ingredients_en": "Coconut milk, blackcurrant jam, buckwheat flour, dark chocolate, soya drink, cocoa",
+    "ingredients_pl": "Mleczko kokosowe, dżem z czarnej porzeczki, mąka gryczana, gorzka czekolada, napój sojowy, kakao",
+    "image_sizes": [
+      480,
+      800
+    ],
+    "prices": {}
+  },
+  {
+    "id": "P017",
+    "order": 17,
+    "category": "Tarts & Pies",
+    "name_en": "Oat Fruit Pie",
+    "desc_en": "Gluten-free oat crust filled with seasonal fruit.",
+    "name_pl": "Owsiane ciasto pie",
+    "desc_pl": "Spód z bezglutenowych płatków owsianych z owocami sezonowymi.",
+    "kcal": 255,
+    "protein": 5,
+    "carbs": 34,
+    "fat": 11,
+    "diets": [
+      "vegan",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Soya"
+    ],
+    "image": "oat-fruit-pie",
+    "ingredients_en": "Gluten-free oats, seasonal fruit, coconut yoghurt, soya drink, coconut oil",
+    "ingredients_pl": "Płatki owsiane bezglutenowe, owoce sezonowe, jogurt kokosowy, napój sojowy, olej kokosowy",
+    "image_sizes": [
+      480,
+      800
+    ],
+    "prices": {}
+  },
+  {
+    "id": "P018",
+    "order": 18,
+    "category": "Cheesecakes",
+    "name_en": "Caramel Cheesecake",
+    "desc_en": "Creamy baked cheesecake with a milk-caramel topping.",
+    "name_pl": "Sernik z kajmakiem",
+    "desc_pl": "Kremowy sernik pieczony z warstwą kajmaku.",
+    "kcal": 350,
+    "protein": 18,
+    "carbs": 20,
+    "fat": 22,
+    "diets": [
+      "gluten-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Milk",
+      "Eggs",
+      "Nuts"
+    ],
+    "image": "caramel-cheesecake",
+    "ingredients_en": "Quark, eggs, gluten-free custard, almonds, coconut flour, butter, milk powder",
+    "ingredients_pl": "Twaróg, jajka, budyń bezglutenowy, migdały, mąka kokosowa, masło, mleko w proszku",
+    "image_sizes": [
+      480,
+      800
+    ],
+    "prices": {}
+  },
+  {
+    "id": "P019",
+    "order": 19,
+    "category": "Cakes",
+    "name_en": "Vegan Carrot Cake with Caramel",
+    "desc_en": "Spiced carrot sponge with walnuts and a peanut caramel cream.",
+    "name_pl": "Torcik marchewkowy z kajmakiem (vegan)",
+    "desc_pl": "Korzenny biszkopt marchewkowy z orzechami i kremem kajmakowym.",
+    "kcal": 381,
+    "protein": 6,
+    "carbs": 15,
+    "fat": 33,
+    "diets": [
+      "vegan",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Peanuts",
+      "Nuts"
+    ],
+    "image": "vegan-carrot-cake-caramel",
+    "ingredients_en": "Coconut milk, peanut butter, carrot, buckwheat flour, walnuts, almond drink, cinnamon",
+    "ingredients_pl": "Mleczko kokosowe, masło orzechowe, marchew, mąka gryczana, orzechy włoskie, napój migdałowy, cynamon",
+    "image_sizes": [
+      480,
+      800
+    ],
+    "prices": {}
+  },
+  {
+    "id": "P020",
+    "order": 20,
+    "category": "Tarts & Pies",
+    "name_en": "Apple Pie with Custard",
+    "desc_en": "Millet-crust apple pie with a vanilla custard layer – plant-based.",
+    "name_pl": "Szarlotka z budyniem",
+    "desc_pl": "Szarlotka na spodzie jaglanym z warstwą budyniu – roślinna.",
+    "kcal": 285,
+    "protein": 7,
+    "carbs": 35,
+    "fat": 13,
+    "diets": [
+      "vegan",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Soya"
+    ],
+    "image": "apple-pie-custard",
+    "ingredients_en": "Millet flour, apples, coconut flour, soya milk, coconut oil, gluten-free custard, cinnamon",
+    "ingredients_pl": "Mąka jaglana, jabłka, mąka kokosowa, mleko sojowe, olej kokosowy, budyń bezglutenowy, cynamon",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "prices": {}
+  },
+  {
+    "id": "P021",
+    "order": 21,
+    "category": "Cakes",
+    "name_en": "Blueberry Cake",
+    "desc_en": "Light blueberry cake – only 8 g carbs per slice.",
+    "name_pl": "Ciasto jagodowe",
+    "desc_pl": "Lekkie ciasto jagodowe – tylko 8 g węglowodanów w porcji.",
+    "kcal": 196,
+    "protein": 5,
+    "carbs": 8,
+    "fat": 16,
+    "diets": [
+      "keto",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Eggs"
+    ],
+    "image": "blueberry-cake",
+    "ingredients_en": "Coconut milk, eggs, blueberries, buckwheat flour, lemon juice",
+    "ingredients_pl": "Mleczko kokosowe, jajka, jagody, mąka gryczana, sok z cytryny",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "prices": {}
+  },
+  {
+    "id": "P022",
+    "order": 22,
+    "category": "Cheesecakes",
+    "name_en": "Vegan Mango & Strawberry Cheesecake",
+    "desc_en": "Plant-based 'cheesecake' with mango and strawberries.",
+    "name_pl": "Wegański sernik mango-truskawka",
+    "desc_pl": "Roślinny sernik z mango i truskawkami.",
+    "kcal": 363,
+    "protein": 3,
+    "carbs": 12,
+    "fat": 33,
+    "diets": [
+      "vegan",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [],
+    "image": "vegan-mango-strawberry-cheesecake",
+    "ingredients_en": "Coconut milk, strawberries, mango, buckwheat flour, potato starch, rice flour",
+    "ingredients_pl": "Mleczko kokosowe, truskawki, mango, mąka gryczana, mąka ziemniaczana, mąka ryżowa",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "prices": {}
+  },
+  {
+    "id": "P023",
+    "order": 23,
+    "category": "Cakes",
+    "name_en": "Mango Lassi Cake",
+    "desc_en": "Silky mango and coconut cream on a light sponge. Nut-free.",
+    "name_pl": "Mango Lassi",
+    "desc_pl": "Aksamitny krem mango-kokos na lekkim biszkopcie. Bez orzechów.",
+    "kcal": 234,
+    "protein": 2,
+    "carbs": 22,
+    "fat": 16,
+    "diets": [
+      "vegan",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [],
+    "image": "mango-lassi-cake",
+    "ingredients_en": "Mango, coconut milk, buckwheat flour, corn starch, rapeseed oil, coconut-rice drink",
+    "ingredients_pl": "Mango, mleczko kokosowe, mąka gryczana, skrobia kukurydziana, olej rzepakowy, napój kokosowo-ryżowy",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "prices": {}
+  },
+  {
+    "id": "P024",
+    "order": 24,
+    "category": "Tarts & Pies",
+    "name_en": "Halva Tart",
+    "desc_en": "Almond-coconut base with a creamy tahini (halva) filling.",
+    "name_pl": "Tarta chałwowa",
+    "desc_pl": "Spód migdałowo-kokosowy z kremem chałwowym z tahini.",
+    "kcal": 351,
+    "protein": 8,
+    "carbs": 10,
+    "fat": 31,
+    "diets": [
+      "vegan",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Nuts",
+      "Sesame"
+    ],
+    "image": "halva-tart",
+    "ingredients_en": "Almond flour, coconut flour, coconut milk, tahini, coconut oil, seasonal fruit",
+    "ingredients_pl": "Mąka migdałowa, mąka kokosowa, mleczko kokosowe, tahini, olej kokosowy, owoce sezonowe",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "prices": {}
+  },
+  {
+    "id": "P025",
+    "order": 25,
+    "category": "Cheesecakes",
+    "name_en": "Vegan Vanilla Cheesecake",
+    "desc_en": "Creamy cashew-based vanilla 'cheesecake' with seasonal fruit.",
+    "name_pl": "Wegański sernik waniliowy",
+    "desc_pl": "Kremowy sernik waniliowy na bazie nerkowców z owocami sezonowymi.",
+    "kcal": 340,
+    "protein": 7,
+    "carbs": 24,
+    "fat": 24,
+    "diets": [
+      "vegan",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Nuts",
+      "Soya"
+    ],
+    "image": "vegan-vanilla-cheesecake",
+    "ingredients_en": "Cashews, chickpeas, millet, soya milk, vanilla, coconut milk, seasonal fruit",
+    "ingredients_pl": "Nerkowce, ciecierzyca, kasza jaglana, mleko sojowe, wanilia, mleczko kokosowe, owoce sezonowe",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "prices": {}
+  },
+  {
+    "id": "P026",
+    "order": 26,
+    "category": "Cheesecakes",
+    "name_en": "Salted Caramel Cheesecake",
+    "desc_en": "Baked cheesecake with a peanut salted-caramel layer.",
+    "name_pl": "Sernik ze słonym karmelem",
+    "desc_pl": "Sernik pieczony z warstwą słonego karmelu.",
+    "kcal": 364,
+    "protein": 16,
+    "carbs": 12,
+    "fat": 28,
+    "diets": [
+      "gluten-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Milk",
+      "Eggs",
+      "Nuts",
+      "Peanuts"
+    ],
+    "image": "salted-caramel-cheesecake",
+    "ingredients_en": "Quark, eggs, gluten-free custard, almonds, coconut flour, peanut butter, butter, date syrup",
+    "ingredients_pl": "Twaróg, jajka, budyń bezglutenowy, migdały, mąka kokosowa, masło orzechowe, masło, syrop daktylowy",
+    "image_sizes": [
+      480,
+      800
+    ],
+    "prices": {}
+  },
+  {
+    "id": "P027",
+    "order": 27,
+    "category": "Brownies",
+    "name_en": "Beetroot Brownie",
+    "desc_en": "Fudgy brownie made with beetroot and a date-hazelnut spread.",
+    "name_pl": "Brownie z buraków",
+    "desc_pl": "Wilgotne brownie z buraków z daktylowo-orzechowym kremem.",
+    "kcal": 370,
+    "protein": 5,
+    "carbs": 40,
+    "fat": 20,
+    "diets": [
+      "vegan",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Soya",
+      "Nuts"
+    ],
+    "image": "beetroot-brownie",
+    "ingredients_en": "Beetroot, dates, soya milk, bananas, buckwheat flour, coconut flour, hazelnut butter, cocoa",
+    "ingredients_pl": "Buraki, daktyle, mleko sojowe, banany, mąka gryczana, mąka kokosowa, masło z orzechów laskowych, kakao",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "prices": {}
+  },
+  {
+    "id": "P028",
+    "order": 28,
+    "category": "Cakes",
+    "name_en": "Lemon Cake",
+    "desc_en": "Zesty lemon cream with coconut – just 7 g carbs per slice.",
+    "name_pl": "Cytrynowiec",
+    "desc_pl": "Orzeźwiający krem cytrynowy z kokosem – tylko 7 g węglowodanów.",
+    "kcal": 316,
+    "protein": 9,
+    "carbs": 7,
+    "fat": 28,
+    "diets": [
+      "keto",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Eggs"
+    ],
+    "image": "lemon-cake",
+    "ingredients_en": "Eggs, buckwheat flour, coconut milk, potato flour, lemons, coconut oil, shredded coconut",
+    "ingredients_pl": "Jajka, mąka gryczana, mleczko kokosowe, mąka ziemniaczana, cytryny, olej kokosowy, wiórki kokosowe",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "prices": {}
+  },
+  {
+    "id": "P029",
+    "order": 29,
+    "category": "Cheesecakes",
+    "name_en": "Pistachio Cheesecake",
+    "desc_en": "Rich pistachio cheesecake on a dark cocoa base.",
+    "name_pl": "Sernik pistacjowy",
+    "desc_pl": "Intensywny sernik pistacjowy na ciemnym kakaowym spodzie.",
+    "kcal": 445,
+    "protein": 12,
+    "carbs": 12,
+    "fat": 38,
+    "diets": [
+      "gluten-free",
+      "no-added-sugar"
+    ],
+    "allergens": [
+      "Milk",
+      "Nuts"
+    ],
+    "image": "pistachio-cheesecake",
+    "ingredients_en": "Cream, quark, avocado, pistachios, buckwheat flour, coconut flour, black cocoa",
+    "ingredients_pl": "Śmietanka, twaróg, awokado, pistacje, mąka gryczana, mąka kokosowa, czarne kakao",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "prices": {}
+  },
+  {
+    "id": "P030",
+    "order": 30,
+    "category": "Cheesecakes",
+    "name_en": "Vegan Avocado & Lime Cheesecake",
+    "desc_en": "Fresh lime and avocado cream on an oat-date base. Nut-free.",
+    "name_pl": "Wegański sernik z awokado i limonką",
+    "desc_pl": "Świeży krem z limonki i awokado na spodzie owsiano-daktylowym.",
+    "kcal": 376,
+    "protein": 8,
+    "carbs": 32,
+    "fat": 24,
+    "diets": [
+      "vegan",
+      "gluten-free",
+      "lactose-free",
+      "no-added-sugar"
+    ],
+    "allergens": [],
+    "image": "vegan-avocado-lime-cheesecake",
+    "ingredients_en": "Coconut cream, avocado, lime, oats, coconut milk, dates, coconut oil",
+    "ingredients_pl": "Śmietanka kokosowa, awokado, limonka, płatki owsiane, mleczko kokosowe, daktyle, olej kokosowy",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "prices": {}
+  }
+]

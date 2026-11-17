@@ -1,0 +1,8 @@
+# Wdrożenie z GitHuba: Netlify bierze stronę z katalogu głównego i funkcje z netlify/functions.
+[build]
+  publish = "."
+  command = ""
+
+[functions]
+  directory = "netlify/functions"
+  included_files = ["data/products.json", "data/shop.json"]

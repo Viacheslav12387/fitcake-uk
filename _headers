@@ -1,0 +1,19 @@
+# Netlify: nagłówki
+# CSS/JS/dane: przeglądarka zawsze pyta serwer o nową wersję (bez starej strony po aktualizacji).
+# Przy każdej zmianie CSS/JS podnieś też numer ?v= w plikach HTML.
+/images/photos/*
+  Cache-Control: public, max-age=604800
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+/css/*
+  Cache-Control: public, max-age=0, must-revalidate
+/js/*
+  Cache-Control: public, max-age=0, must-revalidate
+/data/*
+  Cache-Control: public, max-age=0, must-revalidate
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+/images/icons.svg
+  Cache-Control: public, max-age=0, must-revalidate

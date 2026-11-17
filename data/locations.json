@@ -1,0 +1,57 @@
+[
+  {
+    "id": "mitcham",
+    "name": "Fit Cake Mitcham",
+    "area": "London",
+    "address": "335 London Road",
+    "town": "Mitcham",
+    "postcode": "CR4 4BE",
+    "image": "mitcham-interior",
+    "image_sizes": [
+      480,
+      960
+    ],
+    "hours": {
+      "0": [
+        10,
+        18
+      ],
+      "1": [
+        9,
+        18
+      ],
+      "2": [
+        9,
+        18
+      ],
+      "3": [
+        9,
+        18
+      ],
+      "4": [
+        9,
+        18
+      ],
+      "5": [
+        9,
+        18
+      ],
+      "6": [
+        9,
+        18
+      ]
+    },
+    "opening_day": "2026-10-31",
+    "phone": "",
+    "email": "london-mitcham@fitcakenosugarnoproblem.com",
+    "instagram": "https://www.instagram.com/fitcake_london_mitcham/",
+    "maps_query": "335 London Road, Mitcham CR4 4BE",
+    "town_aliases": [
+      "London",
+      "Mitcham",
+      "Croydon",
+      "Merton",
+      "South London"
+    ]
+  }
+]

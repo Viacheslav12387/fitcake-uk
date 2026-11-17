@@ -1,0 +1,7 @@
+# TEST VERSION – blocks search engines.
+# Before launch replace everything below with:
+#   User-agent: *
+#   Allow: /
+#   Sitemap: https://fitcake.uk/sitemap.xml
+User-agent: *
+Disallow: /
