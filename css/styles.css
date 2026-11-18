@@ -310,7 +310,7 @@ address { font-style: normal; }
 .card-price { font-size: 20px; font-weight: 700; color: var(--c-ink); }
 .card-price small { font-size: 12px; font-weight: 500; color: var(--c-muted); }
 .card-add { position: relative; z-index: 2; padding: 10px 18px; font-size: 13px; }
-.sample-price { display: inline-block; margin-left: 6px; font-size: 11px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--c-accent-dark); }
+.sample-price { display: inline-block; margin-left: 6px; font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--c-accent-dark); }
 
 /* 11. Locations ------------------------------------------------ */
 .locations { display: grid; gap: 24px; }
@@ -424,7 +424,7 @@ textarea.input { min-height: 110px; resize: vertical; }
 .option-group { display: grid; gap: 8px; margin: 0; padding: 16px; border: 0; border-radius: 16px; background-color: var(--c-cream); }
 .option-group legend { display: flex; width: 100%; justify-content: space-between; align-items: center; float: left; margin-bottom: 8px; font-weight: 700; color: var(--c-ink); }
 .option-group legend + * { clear: both; }
-.required { padding: 3px 10px; border-radius: 999px; background-color: var(--c-navy); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--c-white); }
+.required { padding: 3px 10px; border-radius: 999px; background-color: var(--c-navy); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--c-white); }
 .option-list { display: grid; gap: 8px; }
 .option { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border: 2px solid transparent; border-radius: 12px; background-color: var(--c-white); cursor: pointer; }
 .option:has(input:checked) { border-color: var(--c-accent-dark); }
@@ -468,7 +468,8 @@ textarea.input { min-height: 110px; resize: vertical; }
 .footer h2 { margin-bottom: 12px; font-size: 13px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--c-white); }
 .footer a { transition: color var(--t); }
 .footer a:hover, .footer a:focus-visible { color: var(--c-white); }
-.footer-links li + li { margin-top: 6px; }
+.footer-links li + li { margin-top: 2px; }
+.footer-links a, .footer-bottom a { display: inline-block; padding-block: 4px; } /* cel dotyku ≥ 24 px (WCAG 2.5.8) */
 .footer-links a { text-decoration: underline; text-decoration-color: rgba(255, 255, 255, .3); text-underline-offset: 3px; }
 .footer-logo { display: inline-block; }
 .footer-logo .logo-badge { width: 84px; height: 84px; background-color: var(--c-white); box-shadow: none; }
@@ -619,6 +620,16 @@ textarea.input { min-height: 110px; resize: vertical; }
   .lightbox-next { right: 24px; }
 }
 @media (prefers-reduced-motion: reduce) { .gallery-item img { transition: none; } }
+
+
+/* Skip-link (WCAG 2.4.1) i przełącznik języka w menu mobilnym */
+.skip-link { position: absolute; top: 8px; left: 8px; z-index: 1000; padding: 12px 18px; border-radius: 999px; background-color: var(--c-navy); color: var(--c-yellow); font-weight: 700; transform: translateY(-160%); transition: transform 200ms ease; }
+.skip-link:focus { transform: none; }
+main:focus { outline: none; }
+.mobile-lang { display: flex; gap: 10px; align-items: center; margin-top: 20px; font-size: 16px; }
+.mobile-lang a, .mobile-lang .is-current { display: inline-grid; place-items: center; min-width: 48px; min-height: 44px; padding: 0 12px; border-radius: 999px; }
+.mobile-lang .is-current { background-color: var(--c-navy); color: var(--c-white); }
+.mobile-lang a { border: 2px solid var(--c-navy); }
 
 /* 17. Utilities ------------------------------------------------ */
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }

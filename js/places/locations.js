@@ -19,7 +19,7 @@ function cardHTML(l, compact, first) {
   const srcset = sizes.map((w) => `../images/photos/${l.image}-${w}.webp ${w}w`).join(', ');
   const search = norm([l.name, l.area, l.town, l.postcode, l.address, ...(l.town_aliases || [])].join(' '));
   return `<li class="location" id="${esc(l.id)}" data-search-text="${esc(search)}">
-    <div class="location-img"><img src="../images/photos/${l.image}-${sizes[0]}.webp" srcset="${srcset}" sizes="(min-width: 960px) 40vw, 92vw" alt="${esc(l.name)}" width="960" height="1200" ${first && !compact ? 'fetchpriority="high"' : 'loading="lazy"'}></div>
+    <div class="location-img"><img src="../images/photos/${l.image}-${sizes[0]}.webp" srcset="${srcset}" sizes="(min-width: 960px) 40vw, 92vw" alt="${esc(l.name)}" width="${l.image_width || 960}" height="${l.image_height || 1200}" style="--focus: ${esc(l.image_focus || '50% 50%')}" ${first && !compact ? 'fetchpriority="high"' : 'loading="lazy"'}></div>
     <div class="location-body">
       <p class="location-area">${esc(l.area)}</p>
       <h3>${esc(l.name)}</h3>

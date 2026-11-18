@@ -13,7 +13,7 @@ function cardHTML(p, i, shop) {
     : `<p class="card-price"><small>${shop.mode === 'off' ? '' : t.askInStore}</small></p>`;
   const action = p.variants.length ? t.add : t.details;
   return `<li class="card">
-    <div class="card-img">${img ? `<img src="${img.src}" srcset="${img.srcset}" sizes="${img.sizes}" alt="" width="600" height="450" ${i < 3 ? 'fetchpriority="high"' : 'loading="lazy" decoding="async"'}>` : ''}</div>
+    <div class="card-img">${img ? `<img src="${img.src}" srcset="${img.srcset}" sizes="${img.sizes}" alt="" width="600" height="450" ${i < 3 ? 'decoding="async"' : 'loading="lazy" decoding="async"'}>` : ''}</div>
     <div class="card-body">
       <p class="card-cat">${esc(label(CATEGORIES, p.category))}</p>
       <h3 class="card-title"><button class="card-open" type="button" data-product-open="${esc(p.id)}">${esc(p.name)}</button></h3>

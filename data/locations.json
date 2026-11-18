@@ -6,7 +6,7 @@
     "address": "335 London Road",
     "town": "Mitcham",
     "postcode": "CR4 4BE",
-    "image": "mitcham-interior",
+    "image": "counter-carrot",
     "image_sizes": [
       480,
       960
@@ -52,6 +52,9 @@
       "Croydon",
       "Merton",
       "South London"
-    ]
+    ],
+    "image_width": 1080,
+    "image_height": 1420,
+    "image_focus": "50% 45%"
   }
 ]
