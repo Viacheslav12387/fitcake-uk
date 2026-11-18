@@ -37,5 +37,10 @@ if (checkout) import('./shop/checkout.js').then((m) => m.initCheckout(checkout))
 const locations = $$('[data-locations]');
 if (locations.length) import('./places/locations.js').then((m) => m.initLocations(locations));
 
+const staticForms = $$('form[data-netlify]:not([data-checkout-form])');
+if (staticForms.length) import('./ui/forms.js').then((m) => m.initForms(staticForms));
+const demoThanks = $('[data-demo-thanks]');
+if (demoThanks) import('./ui/forms.js').then((m) => m.initDemoThanks(demoThanks));
+
 const gallery = $('[data-gallery]');
 if (gallery) import('./ui/lightbox.js').then((m) => m.initLightbox(gallery, $('[data-lightbox-dialog]')));

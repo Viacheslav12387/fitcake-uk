@@ -76,7 +76,7 @@ export function initProductDialog(dlg) {
       productId: product.id, variantId: v.id, name: product.name, variantName: v.name, unitPence: v.pence,
       image: product.image ? photoAttrs(product, '').src : '',
     }, qty);
-    if (added) toast(t.added(`${product.name} × ${added}`));
+    if (added) toast(t.added(`${product.name} × ${added}`), { label: t.viewOrder, onClick: () => document.querySelector('[data-cart-open]')?.click() });
     dlg.close();
   });
 
