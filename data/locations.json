@@ -6,10 +6,11 @@
     "address": "335 London Road",
     "town": "Mitcham",
     "postcode": "CR4 4BE",
-    "image": "counter-carrot",
+    "image": "mitcham-counter",
     "image_sizes": [
       480,
-      960
+      960,
+      1440
     ],
     "hours": {
       "0": [
@@ -53,8 +54,8 @@
       "Merton",
       "South London"
     ],
-    "image_width": 1080,
-    "image_height": 1420,
-    "image_focus": "50% 45%"
+    "image_width": 1472,
+    "image_height": 1066,
+    "image_focus": "45% 40%"
   }
 ]
