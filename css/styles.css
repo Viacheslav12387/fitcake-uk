@@ -384,6 +384,9 @@ textarea.input { min-height: 110px; resize: vertical; }
   .dialog-cart { height: 85vh; height: 85dvh; }
   .dialog-cart .dialog-close { position: absolute; top: 14px; right: 14px; float: none; margin: 0; }
   .dialog-cart .dialog-body { min-height: 0; -webkit-overflow-scrolling: touch; }
+  /* krzyżyk ma własny pas – przewijana lista nie wchodzi pod niego */
+  .dialog-cart .dialog-body { margin-top: 64px; padding-top: 0; }
+  .dialog-cart .dialog-title { margin-top: 0; }
 }
 @keyframes sheet-in { from { transform: translateY(100%); } }
 .dialog[open] { animation: dialog-in 220ms ease; }

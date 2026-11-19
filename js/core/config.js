@@ -1,5 +1,5 @@
 // Ustawienia całej strony w jednym miejscu.
-export const VERSION = '20261119b'; // podnieś po zmianie plików w /data, żeby przeglądarki pobrały nowe dane
+export const VERSION = '20261119c'; // podnieś po zmianie plików w /data, żeby przeglądarki pobrały nowe dane
 
 // Statystyki bez cookies (Umami Cloud). Puste = skrypt się nie ładuje.
 export const UMAMI_WEBSITE_ID = '';
