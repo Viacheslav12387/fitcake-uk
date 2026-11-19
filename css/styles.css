@@ -627,6 +627,9 @@ textarea.input { min-height: 110px; resize: vertical; }
 @media (prefers-reduced-motion: reduce) { .gallery-item img { transition: none; } }
 
 
+/* Pasek „wersja testowa” (tryb demo w data/shop.json) */
+.demo-bar { margin: 0; padding: 8px 16px; background-color: var(--c-yellow); color: var(--c-ink); font-size: 13px; font-weight: 700; text-align: center; }
+
 /* Skip-link (WCAG 2.4.1) i przełącznik języka w menu mobilnym */
 .skip-link { position: absolute; top: 8px; left: 8px; z-index: 1000; padding: 12px 18px; border-radius: 999px; background-color: var(--c-navy); color: var(--c-yellow); font-weight: 700; transform: translateY(-160%); transition: transform 200ms ease; }
 .skip-link:focus { transform: none; }

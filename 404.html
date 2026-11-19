@@ -14,7 +14,11 @@
   <main>
     <h1>Page not found</h1>
     <p>Nie znaleziono strony.</p>
-    <a href="/fitcake-uk/en/">Fit Cake London</a>
+    <a href="/en/" id="home-link">Fit Cake London</a>
   </main>
+  <script>
+    // GitHub Pages działa w podkatalogu /fitcake-uk/, Netlify i fitcake.uk – w katalogu głównym
+    if (location.pathname.startsWith('/fitcake-uk/')) document.getElementById('home-link').href = '/fitcake-uk/en/';
+  </script>
 </body>
 </html>
